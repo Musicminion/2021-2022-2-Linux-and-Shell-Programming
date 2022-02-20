@@ -14,12 +14,12 @@
 ##### 二、安装步骤（虚拟机安装详细版）
 
 1. 首先进入Linux的官网，然后进入到下载页面，找到官方认证的镜像界面：[CentOS Mirrors List](http://isoredirect.centos.org/centos/7/isos/x86_64/)
- - ![image](https://user-images.githubusercontent.com/84625273/154843298-bb97816d-5d30-4615-8693-88f3c11e8da0.png)
+   - ![image](https://user-images.githubusercontent.com/84625273/154843298-bb97816d-5d30-4615-8693-88f3c11e8da0.png)
 
 
    - 注释：在上面的界面中，网页会根据地址选择距离比较近的镜像服务器，例如第一个网址就是上海交通大学的ftp服务器地址下CentOS的子目录，单击链接即可下载，当然还有一些企业用的网址，例如阿里云等等。
 
- - ![image](https://user-images.githubusercontent.com/84625273/154843331-05743f99-f64e-43a3-a8a8-05a710173926.png)
+   - ![image](https://user-images.githubusercontent.com/84625273/154843331-05743f99-f64e-43a3-a8a8-05a710173926.png)
 
 
 2. 上面是具体的一些下载链接，在具体开始下载之前，首先需要阅读ReadMe文档，了解里面的镜像文件的信息。 根据Readme文档，了解到一下关键信息：
@@ -30,7 +30,7 @@
      | CentOS-7-x86_64-NetInstall-2009.iso  | 这是网络安装和救援映像。 安装程序将询问它应该从哪里获取要安装的软件包。 如果您有CentOS软件包的本地镜像，则此映像最有用。 |
      | CentOS-7-x86_64-Everything-2009.iso. | 此映像包含 CentOS Linux 7 的完整软件包集。它可用于安装或填充本地镜像。 此映像需要一个16GB 的USB闪存驱动器，因为它对于DVD iso来说太大了。 |
 
-   - **使用安装映像：**您可以将这些图像刻录到 DVD 或将它们“dd”到 USB 闪存驱动器。 准备好启动媒体后，从启动媒体启动计算机。 如果您使用这些安装映像安装到您的硬盘，请记住在安装后运行“yum update”以将您的系统更新到最新的软件包。
+   - **使用安装映像：** 您可以将这些图像刻录到 DVD 或将它们“dd”到 USB 闪存驱动器。 准备好启动媒体后，从启动媒体启动计算机。 如果您使用这些安装映像安装到您的硬盘，请记住在安装后运行“yum update”以将您的系统更新到最新的软件包。
 
 3. 最终我选择的阿里云的安装镜像：CentOS-7-x86_64-Everything-2009.iso.
 
